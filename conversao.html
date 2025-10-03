@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="solar.js"></script>
+    <script src="solar.js" defer></script>
 <header>
     <nav>
         <nav>
@@ -13,20 +13,34 @@
             <a href="./WEG.html">WEG</a>        </nav>
             <a href="./solar.html">principal</a>
     </nav>
+
 </header>
 
-
-
+<body>
     <title>conversão</title>
 
+<h1>media mensal</h1>
 
 
+<label for="Potencia">digite a potencia da sua placa</label><br>
+<input type="number"  id="potencia">
+<br><br>
+<label for="media">digite a media de radiação da sua cidade</label><br>
+<input type="number"  id="media">
+<br><br>
+<label for="eficiencia">digite a eficiencia da sua placa</label><br>
+<input type="number"  id="eficiencia">
+<br><br>
+<label for="mes" > digite a quantidade de dias do mês</label><br>
+<input type="number"  id="mes">
+<br><br>
+<button onclick="principal()">calcular</button>
+<div id="resposta"></div>
 
-
-
-
+<br><br><br><br>
+<footer> by miguel da silva &copy; </footer>
 </head>
-<body>
-    
 </body>
+
+
 </html>
